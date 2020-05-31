@@ -1,0 +1,18 @@
+body{
+    background-color:rgba(177, 170, 170, 0.09)
+}
+    #signin{
+    text-align: center;
+    background-color: blue;
+    color: white;
+    border-width: 0px;
+    border-collapse: collapse;
+    width: 350px;
+    padding: 10px;
+}
+.input{
+    color: black;
+    background-color: white;
+    width: 350px;
+    padding: 10px;
+}

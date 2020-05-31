@@ -1,0 +1,139 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        
+        <title >Tutorials</title>
+        <script type="text/javascript">
+            function Msg2()
+            {
+                alert(" can't Sign up now due to no database connectivity");
+            }
+        </script>
+
+        <!--Bootstrap core css -->
+       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <!-- custom styles for this template -->
+        <link rel="stylesheet" href="tutorials.css">
+        <script src="angular.min.js"> </script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+        
+             
+    </head>
+    <body ng-app="myApp">
+    <div class="d-flex align-item-center p-3 mb-3 flex-md-row flex-column box-shadow border-btm fix">    
+        <h5 class="font-weight-normal my0  mr-md-auto ml-3 style" >Angular JS</h5>
+         
+        <nav>
+            <a href="index.html "  class="mx-4 text-dark ">Home</a>
+            <a href="tutorials.html" class=" mx-4 text-dark">Tutorials</a>
+            <a href="signin.html" class=" mx-4 text-dark">signin</a>
+        </nav>
+        <button href="signup.html" class="bt btn-outline-primary btn-sm mx-4" onclick="Msg2();">sign up</button>
+    </div>
+
+    <div class="container heading-top mb-2 mt-2">
+            <div class="col-md-12 text-center p-1 border-btm box-shadow "><p class="p-2 my-0      ">Angular JS Tutorials</p></div></div>
+    <div class="container p-5 my-5  border-btm box-shadow "> 
+        <div class="row">
+
+
+            <div class="col-md-4 mb-md-0 mb-3 topics-bar">
+                <ul class=" list-unstyled">
+                    <li><div class="md-col-6 mt-2 heading-content"><h3 class="my-0 mb-2 ft-normal">Content </h3></div></li>
+
+
+
+                    <li><div class="md-col-6 text-primary mt-3 topic mb-3  " ng-class="{mousestyle: value1}" ng-mouseenter="value1=true" ng-mouseleave="value1=false">
+                        <a href="#/!" class="mx-2">Introduction</a>
+                    </div></li>
+
+                    <li><div class="md-col-6 text-primary mt-3 topic mb-3   " ng-class="{mousestyle: value2}" ng-mouseenter="value2=true" ng-mouseleave="value2=false" >
+                        <a href="#!Dr" class="mx-2">Directives </a>
+                    </div></li>
+
+                    <li><div class="md-col-6 text-primary mt-3 topic mb-3   " ng-class="{mousestyle: value3}" ng-mouseenter="value3=true" ng-mouseleave="value3=false" >
+                        <a href="#!Rt" class="mx-2">Routing</a>
+                    </div></li>
+
+                    <li><div class="md-col-6 text-primary mt-3 topic mb-3   " ng-class="{mousestyle: value4}" ng-mouseenter="value4=true" ng-mouseleave="value4=false" >
+                        <a href="#!Mod" class="mx-2">Module</a>
+                    </div></li>
+
+                    
+                
+                    <li><div class="md-col-6 text-primary mt-3 topic mb-3   " ng-class="{mousestyle: value6}" ng-mouseenter="value6=true" ng-mouseleave="value6=false" >
+                        <a href="#!Flt" class="mx-2"> Filter</a>
+                    </div></li>
+
+                    <li><div class="md-col-6 text-primary mt-3 topic mb-3 " ng-class="{mousestyle: value7}" ng-mouseenter="value7=true" ng-mouseleave="value7=false" >
+                        <a href="#!Exp" class="mx-2"> Expressions</a>
+                    </div></li>
+
+                    <li><div class="md-col-6 text-primary mt-3 topic mb-3 " ng-class="{mousestyle: value8}" ng-mouseenter="value8=true" ng-mouseleave="value8=false" >
+                        <a href="#!Scope" class="mx-2">Scope </a>
+                    </div></li>
+
+                    <li><div class="md-col-6 text-primary mt-3 topic mb-3  " ng-class="{mousestyle: value9}" ng-mouseenter="value9=true" ng-mouseleave="value9=false" >
+                        <a href="#!Frm" class="mx-2"> Forms</a>
+                    </div></li>
+
+                    <li><div class="md-col-6 text-primary mt-3 topic mb-3   " ng-class="{mousestyle: value10}" ng-mouseenter="value10=true" ng-mouseleave="value10=false" >
+                        <a href="#!Srv" class="mx-2"> Services</a>
+                    </div></li>
+
+                </ul>
+            </div>
+            
+            <div class="col-md-8 mb-md-0 mb-3 content-rt" style="background-color: rgba(194, 181, 181, 0.092)">
+            <div ng-view class=" mx-3 mt-3"> </div>
+        </div>
+        </div>
+        </div>
+
+             
+            
+        <hr>
+
+        <div class="container my-0">
+        <footer class="page-footer font-small pt-4 mt-5 mb-2 footer"  style="background-color: rgba(177, 170, 170, 0.09)">
+                <div class="container-fluid text-center text-md-left justify-content-between">
+                    <div class="row" >
+                        <div class="col-md-4 mt-md-0 mt-3">
+                                <img src="angular7.png" width="70" height="70" alt="angular-icon">
+                            <h5 class="text-uppercase mt-3">Angular JS</h5>
+                            <p class="text-muted"> Developed by Kamal</p>
+                            
+                            
+                        </div>
+                        <hr class="clearfix w-100 d-md-none pb-3">
+                            <div class="col-md-4 mb-md-0 mb-3 ">
+                                <h5 class="text-uppercase pt-4">Contact US</h5>
+                                    <ul class="list-unstyled">
+                                        <li><a href="contactus.html">Contact</a></li>
+                                        
+                                    </ul>
+                            </div>
+                            <div class="col-md-4 mb-md-0 mb-3 ">
+                                <h5 class="text-uppercase pt-4">About us</h5>
+                                    <ul class="list-unstyled">
+                                        <li><a href="aboutus.html">about</a></li>
+                                        
+
+                                        </li>
+                                    </ul>
+                                </div>
+                    </div>
+                </div>
+                <div class="footer-copyright text-center py-3">© 2019 Copyright:
+                    <a href="index.html" class="text-decoration-none"> AngularJS tutorial.com</a>
+                </div>
+                </footer>
+            </div>
+            <script src="route.js"></script>
+            
+        
+</body>
+</html>
